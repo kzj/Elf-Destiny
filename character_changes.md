@@ -24,7 +24,7 @@ I tried to balance the lores of both universes when making these changes. Howeve
 - Lilith (She's still a demon. Now has the Enchantress and Passionate traits.)
 
 ### Characters who have changed so much they neeed their own section
-Hecate has had *major* changes. As the goddess of magic in Greek myth, I thought it was only appropriate to give her increased magic abilities. So, Hecate is an Aratar with a twist. She has the Warped Spark trait, Warped Body trait, and Warped Mind trait, along with all Magic and Spark lifestyle traits.
+Hecate has had *major* changes. As the goddess of magic in Greek myth, I thought it was only appropriate to give her increased magic abilities. So, Hecate is an Aratar with the Warped Spark trait, Warped Body trait, and Warped Mind trait, along with all Magic and Spark lifestyle traits.
 
 ## New Characters
 
