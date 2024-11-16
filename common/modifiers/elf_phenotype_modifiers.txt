@@ -225,3 +225,22 @@ urf_phenotype_aratar_modifier = {
     years_of_fertility = years_of_fertility_bonus_aratar
     inbreeding_chance = inbreeding_chance_bonus_aratar
 }
+
+urf_phenotype_otherworlder_modifier = {
+    icon = magic_positive
+    # ========== BONUSES ==========
+    # Stats
+    learning = learning_bonus_otherworlder
+    prowess = prowess_bonus_otherworlder
+    attraction_opinion = attraction_opinion_bonus_otherworlder
+
+    # Mortality
+    no_prowess_loss_from_age = yes
+    life_expectancy = life_expectancy_bonus_otherworlder
+    health = health_bonus_otherworlder
+
+    # Reproduction
+    fertility = fertility_penalty_otherworlder
+    years_of_fertility = years_of_fertility_bonus_otherworlder
+    inbreeding_chance = inbreeding_chance_bonus_otherworlder
+}

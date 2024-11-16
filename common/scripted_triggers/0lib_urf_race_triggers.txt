@@ -48,6 +48,7 @@ has_any_elf_flag_trigger = {
         has_character_flag = race_maiar
         has_character_flag = race_valar
         has_character_flag = race_aratar
+        has_character_flag = race_otherworlder
     }
 }
 

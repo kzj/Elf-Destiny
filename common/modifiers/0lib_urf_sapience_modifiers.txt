@@ -36,3 +36,18 @@ urf_ethereal_sapient_modifier = {
 	life_expectancy = 1000
 	years_of_fertility = 1000
 }
+
+urf_otherworlder_sapient_modifier = {
+	icon = magic_positive
+	# Scaling Modifiers
+	diplomacy = otherworlder_sapience_diplomacy_value
+	martial = otherworlder_sapience_martial_value
+	stewardship = otherworlder_sapience_stewardship_value
+	intrigue = otherworlder_sapience_intrigue_value
+	learning = otherworlder_sapience_learning_value
+
+	fertility = -0.85
+	health = 5
+	life_expectancy = 9999
+	years_of_fertility = 9999
+}

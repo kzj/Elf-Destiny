@@ -58,6 +58,10 @@ aratar_genetic_threshold_value = {
     value = 100
 }
 
+otherworlder_genetic_threshold_value = {
+    value = 100
+}
+
 elf_genetic_assignment_strength_value = {
     value = 0
     if = {
@@ -131,6 +135,12 @@ elf_genetic_assignment_strength_value = {
             has_character_flag = race_aratar
         }
         add = aratar_genetic_threshold_value
+    }
+    else_if = {
+        limit = {
+            has_character_flag = race_otherworlder
+        }
+        add = otherworlder_genetic_threshold_value
     }
 }
 

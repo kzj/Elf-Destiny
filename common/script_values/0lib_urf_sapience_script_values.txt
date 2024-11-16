@@ -15,3 +15,9 @@ ethereal_sapience_martial_value = 11
 ethereal_sapience_stewardship_value = 11
 ethereal_sapience_intrigue_value = 11
 ethereal_sapience_learning_value = 11
+
+otherworlder_sapience_diplomacy_value = 12
+otherworlder_sapience_martial_value = 12
+otherworlder_sapience_stewardship_value = 12
+otherworlder_sapience_intrigue_value = 12
+otherworlder_sapience_learning_value = 12
