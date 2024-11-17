@@ -58,3 +58,8 @@ aratar = {
     texture = "gfx/interface/icons/race/urf_aratar.dds"
     parent = elf
 }
+
+otherworlder = {
+    texture = "gfx/interface/icons/race/urf_otherworlder.dds"
+    parent = elf
+}
