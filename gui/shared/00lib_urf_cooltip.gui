@@ -354,6 +354,30 @@ types RaceTooltips
                                     }
                                 }
                             }
+                            progressbar_sapience = {
+                                name = "otherworlder_sapience"
+                                size = { 400 40 }
+                                value = "[Character.MakeScope.Var('urf_sapience').GetValue]"
+                                min = 0
+                                max = 2000
+
+                                visible = "[GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.Var('urf_sapience').GetValue, '(CFixedPoint)751' )]"
+
+                                noprogresstexture = "gfx/interface/progressbars/blank.dds"
+                                progresstexture = "gfx/interface/progressbars/progress_grandeur_increase.dds"
+
+                                marker = {
+                                    name = "current_value"
+                                    widget = {
+                                        icon = {
+                                            size = { 25 36 }
+                                            position = { -20 2 }
+                                            texture = "gfx/interface/progressbars/progressbar_center_glow.dds"
+                                            color = { 0.80 0.96 0.82 0.9 }
+                                        }
+                                    }
+                                }
+                            }
                             widget = {
                                 name = "level_divider_1"
                                 size = { 0 30 }
@@ -760,6 +784,109 @@ types RaceTooltips
                                 }
 
                                 tooltip = "RACE_SAPIENCE_LEVEL_3"
+                            }
+
+                            ### LEVEL ###
+                            text_single = {
+                                raw_text = "3"
+                                align = center
+                                widgetanchor = center
+                                parentanchor = center
+                                position = { 0 -13 }
+                            }
+                        }
+                        widget = {
+                            name = "level_item_4"
+                            size = { 0 20 }
+                            # position = { 225 50 }
+                            allow_outside = yes
+
+                            widget = {
+                                size = { 60 80 }
+                                position = { 0 10 }
+                                widgetanchor = center
+
+                                icon = {
+                                    name = "highlight_current_level"
+                                    size = { 80 80 }
+                                    position = { 0 -10 }
+                                    parentanchor = center
+                                    texture = "gfx/interface/window_roco_grandeur/pin_highlight.dds"
+                                    visible = "[EqualTo_string(Character.MakeScope.Var('urf_sapience_level').GetFlagName, 'otherworlder_sapient')]"
+
+                                    state = {
+                                        name = _show
+                                        using = Animation_Curve_Default
+                                        duration = 0.3
+                                        alpha = 0.7
+                                    }
+
+                                    state = {
+                                        name = _hide
+                                        using = Animation_Curve_Default
+                                        duration = 0.6
+                                        alpha = 0
+                                    }
+
+                                    state = {
+                                        name = "a"
+                                        next = "b"
+                                        trigger_on_create = yes
+                                        alpha = 0.7
+
+                                        modify_texture = {
+                                            name = "glow_1"
+                                            rotate_uv = 0
+                                        }
+
+                                        modify_texture = {
+                                            name = "glow_2"
+                                            rotate_uv = 0
+                                        }
+                                    }
+
+                                    state = {
+                                        name = "b"
+                                        next = "a"
+                                        duration = 7
+
+                                        modify_texture = {
+                                            name = "glow_1"
+                                            rotate_uv = 360
+                                        }
+
+                                        modify_texture = {
+                                            name = "glow_2"
+                                            rotate_uv = 360
+                                        }
+                                    }
+
+                                    modify_texture = {
+                                        name = "glow_1"
+                                        texture = "gfx/interface/component_masks/mask_glow.dds"
+                                        blend_mode = alphamultiply
+                                    }
+
+                                    modify_texture = {
+                                        name = "glow_2"
+                                        texture = "gfx/interface/component_masks/mask_glow.dds"
+                                        blend_mode = alphamultiply
+                                        mirror = horizontal
+                                    }
+                                }
+                            }
+
+                            widget = {
+                                name = "level_backgrounds"
+                                size = { 60 60 }
+                                widgetanchor = center
+
+                                ### Level background level 2
+                                icon_grandeur_level = {
+                                    texture = "gfx/interface/window_roco_grandeur/pin_grandeur_rank_02.dds"
+                                }
+
+                                tooltip = "RACE_SAPIENCE_LEVEL_4"
                             }
 
                             ### LEVEL ###

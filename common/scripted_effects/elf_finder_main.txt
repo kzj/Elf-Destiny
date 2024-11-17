@@ -309,6 +309,16 @@
                                 var:urf_phenotype = flag:aratar
                             }
                         }
+                        trigger_if = {
+                            limit = {
+                                NOT = {
+                                    exists = global_var:elf_type_filter_otherworlder
+                                }
+                            }
+                            NOT = {
+                                var:urf_phenotype = flag:otherworlder
+                            }
+                        }
     
                         ### DYNASTY ###
                         trigger_if = {

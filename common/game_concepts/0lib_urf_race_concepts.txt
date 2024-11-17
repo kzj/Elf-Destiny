@@ -24,7 +24,7 @@ ethereal_sapient = {
     alias = { ethereal_sapience, ethereal_sapients }
     parent = sapient
 }
-other = {
+otherworlder_sapient = {
     alias = { otherworlder_sapience, otherworlder_sapients }
     parent = sapient
 }

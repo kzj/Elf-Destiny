@@ -29,6 +29,7 @@
   tooltip_maiar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is a @ainur_tier_icon! Maiar: $VALUE|=+0$"
   tooltip_valar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is a @ainur_tier_icon! Valar: $VALUE|=+0$"
   tooltip_aratar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is an @ainur_tier_icon! Aratar: $VALUE|=+0$"
+  tooltip_otherworlder_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is an @otherworlder_tier_icon, can they be trusted? Otherworlder: $VALUE|=+0$"
 
   tooltip_aeluran_prefers_sister_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is an @aeluran_sister_icon! Aeluran Sister: $VALUE|=+0$"
   tooltip_aeluran_prefers_matron_modifier_bonus_desc:0 "[candidate.GetSheHe|U] is an @aeluran_matron_icon! Aeluran Matron: $VALUE|=+0$"

@@ -199,6 +199,17 @@
 				value = flag:elf_3
 			}
 
+			else_if = {
+				limit = { scope:race_selection = 12 }
+				debug_log = "SCRIPTED GUI otherworlder"
+				set_global_variable = {
+					name = ruler_designer_selected_race 
+					value = flag:otherworlder
+				}
+				set_global_variable = {
+					name = ruler_designer_ear_type 
+					value = flag:elf_3
+				}
 		}
 
 
@@ -468,6 +479,25 @@ character_race_selection_button = {
 			set_global_variable = {
 				name = ruler_designer_selected_race 
 				value = flag:aratar
+			}
+			set_global_variable = {
+				name = ruler_designer_ear_type 
+				value = flag:elf_3
+			}
+
+		}
+		else_if = {
+			limit = { scope:race_selection = 13 }
+			debug_log = "SCRIPTED GUI otherworlder"
+			capital_county = {
+				set_variable = {
+					name = ruler_designer_race
+					value = flag:otherworlder
+				}
+			}
+			set_global_variable = {
+				name = ruler_designer_selected_race 
+				value = flag:otherworlder
 			}
 			set_global_variable = {
 				name = ruler_designer_ear_type 

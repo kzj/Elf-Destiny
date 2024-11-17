@@ -92,6 +92,12 @@
 
 			change_character_race_effect = { NEW_RACE = aratar }
 		}
+		else_if = {
+			limit = { scope:race = 14 }
+			debug_log = "SCRIPTED elf_race_selection_button otherworlder"
+
+			change_character_race_effect = { NEW_RACE = otherworlder }
+		}
 	}
 
 	is_shown = {} 			# is it visible in the UI?

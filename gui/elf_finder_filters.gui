@@ -614,6 +614,33 @@
                                         text = "[Localize( 'game_concept_aratar_desc') ]"
                                     }
                                 }
+                                elf_filter_button = {
+                                    blockoverride "elf_click_button_effect" {
+                                        datacontext = "[GetScriptedGui( 'elf_type_filter_button' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.AddScope( 'elf_type', MakeScopeValue( '(CFixedPoint)12' ) ).End )]"
+                                    }
+                                    blockoverride "elf_filter_button_texture" {
+                                        texture = "[GetCultureInnovationType('urf_phenotype_otherworlder').GetIcon]"
+                                    }
+                                    blockoverride "elf_filter_button_selected" {
+                                        enabled = "[EqualTo_CFixedPoint( GetGlobalVariable( 'elf_type_filter_otherworlder' ).GetValue, '(CFixedPoint)1' )]"
+                                    }
+                                    blockoverride "elf_icon_glow_enabled" {
+                                        visible = "[EqualTo_CFixedPoint( GetGlobalVariable( 'elf_type_filter_otherworlder' ).GetValue, '(CFixedPoint)1' )]"
+                                    }
+                                    blockoverride "elf_icon_glow_disabled" {
+                                        visible = "[Not( EqualTo_CFixedPoint( GetGlobalVariable( 'elf_type_filter_otherworlder' ).GetValue, '(CFixedPoint)1' ) )]"
+                                    }
+                                    blockoverride "tooltip_race_icon_texture"  {
+                                        texture = "[GetCultureInnovationType('urf_phenotype_otherworlder').GetIcon]"
+                                    }
+                                    blockoverride "tooltip_race_icon_name" {
+                                        text = "[Localize( 'game_concept_otherworlder') ]"
+                                    }
+                                    blockoverride "tooltip_race_icon_desc" {
+                                        text = "[Localize( 'game_concept_otherworlder_desc') ]"
+                                    }
+                                }
                             }
 
                             # Bloodlines
