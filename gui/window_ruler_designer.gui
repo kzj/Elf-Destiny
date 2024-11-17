@@ -2077,7 +2077,7 @@ window = {
 										blockoverride "elf_click_button_effect" {
 											state = {
 												name = _mouse_press
-												on_finish = "[ScriptedGui.Execute( GuiScope.AddScope( 'race_selection', MakeScopeValue( '(CFixedPoint)12' ) ).End )]"
+												on_finish = "[ScriptedGui.Execute( GuiScope.AddScope( 'race_selection', MakeScopeValue( '(CFixedPoint)13' ) ).End )]"
 											}
 											state = {
 												name = _mouse_release
