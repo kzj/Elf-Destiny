@@ -200,7 +200,7 @@
 			}
 
 			else_if = {
-				limit = { scope:race_selection = 12 }
+				limit = { scope:race_selection = 13 }
 				debug_log = "SCRIPTED GUI otherworlder"
 				set_global_variable = {
 					name = ruler_designer_selected_race 

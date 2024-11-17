@@ -411,7 +411,7 @@ vbox = {
 			elf_filter_button_small = {
 				blockoverride "elf_click_button_effect" {
 					datacontext = "[GetScriptedGui( 'elf_race_selection_button' )]"
-					onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( EventWindowWidget.GetScope.sC('recipient').MakeScope).AddScope( 'race', MakeScopeValue( '(CFixedPoint)11' ) ).End )]"
+					onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( EventWindowWidget.GetScope.sC('recipient').MakeScope).AddScope( 'race', MakeScopeValue( '(CFixedPoint)14' ) ).End )]"
 				}
 				blockoverride "elf_filter_button_texture" {
 					texture = "[GetCultureInnovationType('urf_phenotype_otherworlder').GetIcon]"
