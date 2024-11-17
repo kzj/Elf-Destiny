@@ -40,6 +40,7 @@ is_any_elf_type = {
         is_maiar = yes
         is_valar = yes
         is_aratar = yes
+        is_otherworlder = yes
     }
 }
 
@@ -134,6 +135,10 @@ is_aratar = {
     has_character_modifier = urf_phenotype_aratar_modifier
 }
 
+is_otherworlder = {
+    has_character_modifier = urf_phenotype_otherworlder_modifier
+}
+
 is_low_elf_tier = {
     OR = {
         is_elf_blood = yes
@@ -164,6 +169,13 @@ is_ainur_elf_tier = {
         is_valar = yes
         is_aratar = yes
     }
+}
+
+is_otherworlder_elf_tier = {
+    OR = {
+        is_otherworlder = yes
+    }
+
 }
 
 is_x_elf_levels_higher = {

@@ -37,3 +37,6 @@
 
  game_concept_aratar:0 "Aratar"
  game_concept_aratar_desc:0 "The most powerful chosen few among the Valar."
+# Otherworlder (literally just one race...for now, anyway)
+ game_concept_otherworlder:0 "Otherworlder"
+ game_concept_otherworlder:0 "Beings from another multiverse entirely."

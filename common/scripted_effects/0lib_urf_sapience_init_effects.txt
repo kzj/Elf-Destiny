@@ -69,10 +69,15 @@ urf_on_birth_sapience_level = {
         limit = { urf_is_ethereal_sapient = yes }
         urf_set_sapience_level = { LEVEL = ethereal_sapient }
     }
+    if = {
+        limit ={ urf_is_otherworlder_sapient = yes }
+         urf_set_sapience_level = { LEVEL = otherworlder_sapient }
+    }
 }
 
 urf_remove_all_sapience_modifiers = {
     remove_character_modifier = urf_low_sapient_modifier
     remove_character_modifier = urf_mitle_sapient_modifier
     remove_character_modifier = urf_ethereal_sapient_modifier
+    remove_character_modifier = urf_otherworlder_sapient_modifier
 }

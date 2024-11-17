@@ -33,6 +33,7 @@ remove_elf_flag = {
     remove_character_flag = race_maiar
     remove_character_flag = race_valar
     remove_character_flag = race_aratar
+    remove_character_flag = race_otherworlder
 }
 
 # End Elf Destiny

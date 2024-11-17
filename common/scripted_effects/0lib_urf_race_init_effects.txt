@@ -61,6 +61,7 @@ urf_elf_race_init = {
     }
 }
 urf_elf_race_sub_init = {
+    urf_elf_race_set_sub = { SUB_RACE = otherworlder }
     urf_elf_race_set_sub = { SUB_RACE = aratar }
     urf_elf_race_set_sub = { SUB_RACE = valar }
     urf_elf_race_set_sub = { SUB_RACE = maiar }
@@ -126,6 +127,7 @@ urf_remove_modifier = {
     remove_character_modifier = urf_phenotype_maiar_modifier
     remove_character_modifier = urf_phenotype_valar_modifier
     remove_character_modifier = urf_phenotype_aratar_modifier
+    remove_character_modifier = urf_phenotype_otherworlder_modifier
 }
 
 # End Elf Destiny

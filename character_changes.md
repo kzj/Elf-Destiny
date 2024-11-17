@@ -10,7 +10,13 @@ I tried to balance the lores of both universes when making these changes. Howeve
 ### Characters who are Now Otherworlders
 - Most Demons
 - Non-Sentient Characters (golem, blob)
-- Abdul al Hazred- Figured this was the best race to give him given he's kinda-sorta human
+- Abdul al Hazred (figured this was the best race to give him)
+
+### Characters with Magic Traits
+- The Aeurlan Matron now will have a Spark Wielder trait and the Source Trait
+- Valar all have a special spark trait.
+- Depending on Game Rules, Julia Melwood may have either a minor Source trait, the Yaga's Blood Trait, or just the basic witch trait.
+- Each of the elf houses have a higher chance of spawning with a particular magic trait.
 
 ### Characters who now have Elf Blood
 - Baba Yaga

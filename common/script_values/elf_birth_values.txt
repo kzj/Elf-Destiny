@@ -193,6 +193,22 @@
 			}
 			add = 12
 		}
+		if = {
+			limit = {
+				scope:real_father = {
+					is_otherworlder = yes
+				}
+			}
+			add = 4 # game balance would absolutely die if otherworlders birthed max tier elves.
+		}
+		if = {
+			limit = {
+				scope:mother = {
+					is_otherworlder = yes
+				}
+			}
+			add = 4
+		}
 
 
 		if = { # Fallback incase father was never assigned, just double mother 

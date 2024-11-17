@@ -19,3 +19,4 @@
  RACE_SAPIENCE_LEVEL_1:0 "#bold #E Low-Sapient: #! (1) #! \n\n[Localize('game_concept_low_sapient_desc')]"
  RACE_SAPIENCE_LEVEL_2:0 "#bold #E Mitle-Sapient: #! (2) #! \n\n[Localize('game_concept_mitle_sapient_desc')]"
  RACE_SAPIENCE_LEVEL_3:0 "#bold #E Ethereal-Sapient: #! (3) #! \n\n[Localize('game_concept_ethereal_sapient_desc')]"
+ RACE_SAPIENCE_LEVEL_4:0 "#bold #E Otherworlder-Sapient: #! (4) #! \n\n[Localize('game_concept_otherworlder_sapient_desc')]"
