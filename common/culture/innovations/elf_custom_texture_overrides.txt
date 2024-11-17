@@ -141,9 +141,8 @@ urf_phenotype_aratar = {
     group = culture_group_regional
     culture_era = culture_era_late_medieval
 }
-
 urf_phenotype_gui_illustration_otherworlder = {
-    icon = "gfx/interface/illustrations/race/urf_gui_illustration_otherworlder.dds"
+    icon = "gfx/interface/illustrations/race/urf_otherworlder.dds"
     potential = {always = no}
     group = culture_group_regional
     culture_era = culture_era_late_medieval
