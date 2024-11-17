@@ -91,4 +91,11 @@
         }
         localization_key = game_concept_aratar_desc
     }
+
+    text = {
+        trigger = {
+            is_otherworlder = yes
+        }
+        localization_key = game_concept_otherworlder_desc
+    }
 }
