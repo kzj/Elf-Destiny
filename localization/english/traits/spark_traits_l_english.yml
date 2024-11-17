@@ -2,3 +2,6 @@
   # Magi
   trait_magi:0 "Magi"
   trait_magi_desc:0 "A woman who has forged a strong connection with the Divine Spark and can wield its energies."
+
+  trait_empowered:0 "Empowered"
+  trait_empowered_desc:0 "Through occult methods or sheer willpower, this man has forged a stronger connection with the Divine Spark than normal."
