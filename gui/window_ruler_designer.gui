@@ -2068,6 +2068,25 @@ window = {
 	
 									}
 								}
+
+							}
+							button_standard_hover = {
+								layoutpolicy_horizontal = expanding
+								minimumsize = { 300 50% }
+								datacontext = "[GetScriptedGui( 'character_race_selection_button' )]"
+								
+								state = {
+									name = _mouse_press
+									on_finish = "[ScriptedGui.Execute( GuiScope.SetRoot( RulerDesignerWindow.GetCharacterToOverwrite.MakeScope).AddScope( 'race_selection', MakeScopeValue( '(CFixedPoint)13' ) ).End )]"
+
+								}
+								state = {
+									name = _mouse_release
+									on_finish = "[RulerDesignerWindow.ToggleShowAccessories]"
+									on_finish = "[RulerDesignerWindow.ToggleShowAccessories]"
+									on_finish = "[VariableSystem.Clear( 'race_select_window_open' )]"
+								}
+
 								flowcontainer = {
 									direction = horizontal
 									spacing = 10
@@ -2087,7 +2106,7 @@ window = {
 											}
 										}
 										blockoverride "elf_filter_button_texture" {
-											texture = "[GetCultureInnovationType('urf_phenotype_otherworlder').GetIcon]"
+											texture = "[GetCultureInnovationType('urf_phenotype_aratar').GetIcon]"
 										}
 										blockoverride "elf_filter_button_selected" {
 											enabled = "[EqualTo_CFixedPoint( GetGlobalVariable( 'elf_type_filter_otherworlder' ).GetValue, '(CFixedPoint)1' )]"
@@ -2120,6 +2139,7 @@ window = {
 	
 									}
 								}
+								
 							}
 						}
 					}
