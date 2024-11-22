@@ -403,6 +403,11 @@ vbox = {
 					text = "[Localize( 'game_concept_aratar_desc') ]"
 				}
 			}
+		}
+
+		flowcontainer = {
+			spacing = 5
+
 			elf_filter_button_small = {
 				blockoverride "elf_click_button_effect" {
 					datacontext = "[GetScriptedGui( 'elf_race_selection_button' )]"

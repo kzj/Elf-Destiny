@@ -540,6 +540,7 @@ attraction_opinion_bonus_eldar = 20
 attraction_opinion_bonus_maiar = 50
 attraction_opinion_bonus_valar = 75
 attraction_opinion_bonus_aratar = 99
+attraction_opinion_bonus_otherworlder = 66
 
 average_life_in_years = 65
 
@@ -555,7 +556,7 @@ life_expectancy_bonus_eldar = 9999
 life_expectancy_bonus_maiar = 9999
 life_expectancy_bonus_valar = 9999
 life_expectancy_bonus_aratar = 9999
-life_expectancy_bonus_otherworlder = 9999
+life_expectancy_bonus_otherworlder = 6666
 
 life_expectancy_elf_blood = {
 	value = 0
@@ -635,7 +636,7 @@ health_bonus_eldar = 0.75
 health_bonus_maiar = 1
 health_bonus_valar = 1
 health_bonus_aratar = 1
-health_bonus_otherworlder = 1
+health_bonus_otherworlder = 0.66
 
 fertility_penalty_elf_blood = -0.20
 fertility_penalty_elf = -0.3
@@ -663,7 +664,7 @@ years_of_fertility_bonus_eldar = 9999
 years_of_fertility_bonus_maiar = 9999
 years_of_fertility_bonus_valar = 9999
 years_of_fertility_bonus_aratar = 9999
-years_of_fertility_bonus_otherworlder = 9999
+years_of_fertility_bonus_otherworlder = 6666
 
 inbreeding_chance_bonus_elf_blood = -0.50
 inbreeding_chance_bonus_elf = -0.70

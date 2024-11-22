@@ -361,7 +361,7 @@ types RaceTooltips
                                 min = 0
                                 max = 2000
 
-                                visible = "[GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.Var('urf_sapience').GetValue, '(CFixedPoint)751' )]"
+                                visible = "[GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.Var('urf_sapience').GetValue, '(CFixedPoint)1000' )]"
 
                                 noprogresstexture = "gfx/interface/progressbars/blank.dds"
                                 progresstexture = "gfx/interface/progressbars/progress_grandeur_increase.dds"

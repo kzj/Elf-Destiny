@@ -211,6 +211,7 @@
 					value = flag:elf_3
 				}
 		}
+	}
 
 
         # elf_finder_create_elf_list = yes

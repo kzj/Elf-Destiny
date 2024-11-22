@@ -534,7 +534,7 @@ elf_type_filter_button = {
 			toggle_elf_type_filter = { ELF_TYPE = aratar }
 		}
 		else_if = {
-			limit = { scope:elf_type = 12 }
+			limit = { scope:elf_type = 13 }
 			debug_log = "SCRIPTED GUI otherworlder"
 
 			toggle_elf_type_filter = { ELF_TYPE = otherworlder }

@@ -617,7 +617,7 @@
                                 elf_filter_button = {
                                     blockoverride "elf_click_button_effect" {
                                         datacontext = "[GetScriptedGui( 'elf_type_filter_button' )]"
-                                        onclick = "[ScriptedGui.Execute( GuiScope.AddScope( 'elf_type', MakeScopeValue( '(CFixedPoint)12' ) ).End )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.AddScope( 'elf_type', MakeScopeValue( '(CFixedPoint)13' ) ).End )]"
                                     }
                                     blockoverride "elf_filter_button_texture" {
                                         texture = "[GetCultureInnovationType('urf_phenotype_otherworlder').GetIcon]"
