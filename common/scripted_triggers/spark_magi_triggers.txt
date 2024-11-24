@@ -62,6 +62,7 @@
 			}
 			# SPARK
 			has_trait = magi
+			has_trait = empowered # subject to change, but for now, magi and empowered unlock the same things.
 			# Event-based special exceptions
 			has_character_modifier = ignores_gender_army_rules
 			AND = {
@@ -94,6 +95,7 @@ court_position_martial_trigger = {
 		has_trait = shieldmaiden
 		has_trait = lifestyle_blademaster
 		has_trait = magi
+		has_trait = empowered
 	}
 	can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = $EMPLOYER$ }
 }
@@ -117,6 +119,7 @@ can_be_marshal_trigger = {
 			$COURT_OWNER$.culture = { has_cultural_parameter = has_access_to_shieldmaidens }
 		}
 		has_trait = magi
+		has_trait = empowered
 	}
 }
 

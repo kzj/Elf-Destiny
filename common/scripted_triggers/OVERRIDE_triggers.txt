@@ -127,6 +127,7 @@ portrait_wear_armor_trigger = {
 	# Elf Destiny
 	NOT = { 
 		has_trait = magi
+		has_trait = empowered
 	}
 	# Elf Destiny
 
@@ -194,6 +195,7 @@ portrait_wear_helmet_trigger = { # Different from Armor, as Counts+ should show 
 	# Elf Destiny
 	NOT = { 
 		has_trait = magi
+		has_trait = empowered
 	}
 	# Elf Destiny
 
@@ -278,6 +280,7 @@ portrait_wear_armor_currently_in_army_trigger = {
 	# Elf Destiny
 	NOT = { 
 		has_trait = magi
+		has_trait = empowered
 	}
 	# Elf Destiny
 	OR = {

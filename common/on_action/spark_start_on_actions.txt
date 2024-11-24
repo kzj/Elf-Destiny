@@ -186,6 +186,10 @@ elf_destiny_on_game_start = {
 			name = elf_type_filter_aratar 
 			value = 1
 		}
+		set_global_variable = {
+			name = elf_type_filter_otherworlder
+			value = 1
+		}
 
 		set_global_variable = {
 			name = elf_dynasty_filter_daelurin 
@@ -426,6 +430,12 @@ swap_out_elf_traits = {
 					global_var:ruler_designer_selected_race = flag:aratar
 				}
 				add_character_flag = race_aratar
+			}
+			if = {
+				limit = {
+					global_var:ruler_designer_selected_race = flag:otherworlder
+				}
+				add_character_flag = race_otherworlder
 			}
 			
 			urf_for_all_phenotypes = { APPLY = urf_base_race_init }
@@ -674,6 +684,16 @@ on_game_start_assign_ruler_designer_race = {
 				}
 				holder = {
 					add_character_flag = race_aratar
+					urf_for_all_phenotypes = { APPLY = urf_base_race_init }
+					set_appropriate_elf_immortality_age = yes
+				}
+			}
+			else_if = {
+				limit = {
+					var:ruler_designer_race = flag:otherworlder
+				}
+				holder = {
+					add_character_flag = race_otherworlder
 					urf_for_all_phenotypes = { APPLY = urf_base_race_init }
 					set_appropriate_elf_immortality_age = yes
 				}

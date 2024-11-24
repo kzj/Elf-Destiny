@@ -105,6 +105,28 @@ EntranceEnchanterIsMagiModifier  = {
 		localization_key = entrance_entrancer_is_magi
 	}
 }
+
+EntranceEnchanterIsMagiModifier  = {
+	type = character
+
+	# Empowered Bonus
+	text = {
+		trigger = { 
+			scope:entrancer = {
+				has_trait = empowered
+			}
+			NOT = {
+				scope:victim = {
+					OR = {
+						has_trait = magi
+						has_trait = empowered
+					}
+				}
+			}
+		}
+		localization_key = entrance_entrancer_is_magi
+	}
+}
 # +++
 EntranceMajorPositiveElfLevelModifier = {
 	type = character

@@ -31,6 +31,6 @@ macro = {
 macro = {
 	description = "Is a race modifier"
 	definition = "IsRaceModifier"
-	replace_with = "Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( EqualTo_string(StaticModifier.GetName, 'Human'), EqualTo_string(StaticModifier.GetName, 'Elf') ), EqualTo_string(StaticModifier.GetName, 'High Elf') ), EqualTo_string(StaticModifier.GetName, 'True Elf') ), EqualTo_string(StaticModifier.GetName, 'Fae') ), EqualTo_string(StaticModifier.GetName, 'Fae Radiant') ), EqualTo_string(StaticModifier.GetName, 'Celestial') ), EqualTo_string(StaticModifier.GetName, 'Seraphic Celestial') ), EqualTo_string(StaticModifier.GetName, 'Eldar') ), EqualTo_string(StaticModifier.GetName, 'Maia') ), EqualTo_string(StaticModifier.GetName, 'Vala') ), EqualTo_string(StaticModifier.GetName, 'Aratar') )"  
+	replace_with = "Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( EqualTo_string(StaticModifier.GetName, 'Human'), EqualTo_string(StaticModifier.GetName, 'Elf') ), EqualTo_string(StaticModifier.GetName, 'High Elf') ), EqualTo_string(StaticModifier.GetName, 'True Elf') ), EqualTo_string(StaticModifier.GetName, 'Fae') ), EqualTo_string(StaticModifier.GetName, 'Fae Radiant') ), EqualTo_string(StaticModifier.GetName, 'Celestial') ), EqualTo_string(StaticModifier.GetName, 'Seraphic Celestial') ), EqualTo_string(StaticModifier.GetName, 'Eldar') ), EqualTo_string(StaticModifier.GetName, 'Maia') ), EqualTo_string(StaticModifier.GetName, 'Vala') ), EqualTo_string(StaticModifier.GetName, 'Aratar') ), EqualTo_string(StaticModifier.GetName, 'Otherworlder') )"  
 }
 

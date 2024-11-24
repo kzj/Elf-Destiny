@@ -15,5 +15,4 @@ urf_phenotype_gui_illustration_human = {
     group = culture_group_regional
     culture_era = culture_era_late_medieval
 }
-
 # This is a sample for creating a texture to be used in the URF UI. Obviously override and extend in your own code.

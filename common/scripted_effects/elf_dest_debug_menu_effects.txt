@@ -35,5 +35,6 @@ remove_racial_modifier = {
 		remove_character_modifier = urf_phenotype_maiar_modifier
 		remove_character_modifier = urf_phenotype_valar_modifier
 		remove_character_modifier = urf_phenotype_aratar_modifier
+		remove_character_modifier = urf_phenotype_otherworlder_modifier
 	}
 }

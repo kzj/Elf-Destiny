@@ -27663,6 +27663,7 @@ game_concept_eldar_desc
 game_concept_maiar_desc
 game_concept_valar_desc
 game_concept_aratar_desc
+game_concept_otherworlder_desc
 
 --------------------
 
@@ -27676,6 +27677,7 @@ RACE_SAPIENT
 RACE_LOW_SAPIENT
 RACE_MITLE_SAPIENT
 RACE_ETHEREAL_SAPIENT
+RACE_OTHERWORLDER_SAPIENT
 
 --------------------
 

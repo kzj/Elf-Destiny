@@ -65,6 +65,12 @@
 		}
 		add_character_flag = race_aratar
 	}
+	else_if = { # Otherworlder
+		limit = {
+			is_otherworlder = yes
+		}
+		add_character_flag = race_otherworlder
+	}
 	
 	urf_for_all_phenotypes = { APPLY = urf_base_race_init }
 	set_appropriate_elf_immortality_age = yes

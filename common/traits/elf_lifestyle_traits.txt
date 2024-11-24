@@ -104,6 +104,13 @@ magi = {
 
 # Men cant control spark, but can weild it in their form to become stronger
 # Male Knights required to have this
-# empowered = {
+empowered = {
+	index = 4000
+	name = {
+		desc = trait_empowered
+	}
 
-# }
+	group = empowered_thresholds
+
+	desc = trait_empowered_desc
+ }

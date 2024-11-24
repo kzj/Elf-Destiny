@@ -16,11 +16,11 @@ urf_is_mitle_sapient = {
 urf_is_ethereal_sapient = {
     AND = {
         var:urf_sapience >= 750
-        var:urf_sapience < 999
+        var:urf_sapience <= 999
     }
 }
 urf_is_otherworlder_sapient = {
     AND = {
-        var:urf_sapience >= 999
+        var:urf_sapience > 999
     }
 }

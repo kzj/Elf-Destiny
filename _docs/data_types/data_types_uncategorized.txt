@@ -10276,6 +10276,24 @@ Return type: [unregistered]
 
 -----------------------
 
+otherworlder_sapience
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+otherworlder_sapient
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+otherworlder_sapients
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
 owned_legend
 Definition type: Global function
 Return type: [unregistered]
@@ -14861,7 +14879,7 @@ Definition type: Global macro
 -----------------------
 
 IsRaceModifier
-Macro replacement: Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( EqualTo_string(StaticModifier.GetName, 'Human'), EqualTo_string(StaticModifier.GetName, 'Elf') ), EqualTo_string(StaticModifier.GetName, 'High Elf') ), EqualTo_string(StaticModifier.GetName, 'True Elf') ), EqualTo_string(StaticModifier.GetName, 'Fae') ), EqualTo_string(StaticModifier.GetName, 'Fae Radiant') ), EqualTo_string(StaticModifier.GetName, 'Celestial') ), EqualTo_string(StaticModifier.GetName, 'Seraphic Celestial') ), EqualTo_string(StaticModifier.GetName, 'Eldar') ), EqualTo_string(StaticModifier.GetName, 'Maia') ), EqualTo_string(StaticModifier.GetName, 'Vala') ), EqualTo_string(StaticModifier.GetName, 'Aratar') )
+Macro replacement: Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( Or( EqualTo_string(StaticModifier.GetName, 'Human'), EqualTo_string(StaticModifier.GetName, 'Elf') ), EqualTo_string(StaticModifier.GetName, 'High Elf') ), EqualTo_string(StaticModifier.GetName, 'True Elf') ), EqualTo_string(StaticModifier.GetName, 'Fae') ), EqualTo_string(StaticModifier.GetName, 'Fae Radiant') ), EqualTo_string(StaticModifier.GetName, 'Celestial') ), EqualTo_string(StaticModifier.GetName, 'Seraphic Celestial') ), EqualTo_string(StaticModifier.GetName, 'Eldar') ), EqualTo_string(StaticModifier.GetName, 'Maia') ), EqualTo_string(StaticModifier.GetName, 'Vala') ), EqualTo_string(StaticModifier.GetName, 'Aratar') ), EqualTo_string(StaticModifier.GetName, 'Otherworlder') )
 Description: Is a race modifier
 Definition type: Global macro
 
@@ -70827,6 +70845,12 @@ Return type: [unregistered]
 
 OrderedActivityInviteRule.Self
 Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+otherworlder
+Definition type: Global function
 Return type: [unregistered]
 
 -----------------------

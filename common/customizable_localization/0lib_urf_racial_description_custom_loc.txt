@@ -39,6 +39,13 @@ GetRacialSapienceLevel = {
         }
         localization_key = RACE_ETHEREAL_SAPIENT
     }
+
+    text = {
+        trigger = {
+            var:urf_sapience_level = flag:otherworlder_sapient
+        }
+        localization_key = RACE_OTHERWORLDER_SAPIENT
+    }
 }
 
 GetRacialModifiers = {

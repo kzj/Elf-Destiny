@@ -25,6 +25,7 @@ reset_all_elf_filters = {
 	set_global_variable = { name = elf_type_filter_maiar value = 1 }
 	set_global_variable = { name = elf_type_filter_valar value = 1 }
 	set_global_variable = { name = elf_type_filter_aratar value = 1 }
+	set_global_variable = { name = elf_type_filter_otherworlder value = 1 }
 
 	set_global_variable = { name = elf_dynasty_filter_daelurin value = 1 }
 	set_global_variable = { name = elf_dynasty_filter_thundarael value = 1 }
@@ -68,6 +69,7 @@ clear_all_filters = {
 	remove_global_variable = elf_type_filter_maiar
 	remove_global_variable = elf_type_filter_valar
 	remove_global_variable = elf_type_filter_aratar
+	remove_global_variable = elf_type_filter_otherworlder
 
 	remove_global_variable = elf_dynasty_filter_daelurin
 	remove_global_variable = elf_dynasty_filter_thundarael
@@ -190,6 +192,20 @@ toggle_all_ainur_elf_tier_filter = {
 		remove_global_variable = elf_type_filter_maiar
 		remove_global_variable = elf_type_filter_valar
 		remove_global_variable = elf_type_filter_aratar
+	}
+}
+
+toggle_all_otherworlder_elf_tier_filter = {
+	if = {
+		limit = {
+			NOT = {
+				exists = global_var:elf_type_filter_otherworlder
+			}
+		}
+		set_global_variable = { name = elf_type_filter_otherworlder value = 1 }
+	}
+	else = {
+		remove_global_variable = elf_type_filter_otherworlder
 	}
 }
 

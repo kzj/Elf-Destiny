@@ -199,7 +199,7 @@
 					is_otherworlder = yes
 				}
 			}
-			add = 4 # game balance would absolutely die if otherworlders birthed max tier elves.
+			add = 5 # Otherworlders birth Fae at the moment, this will be changed to a custom race eventually.
 		}
 		if = {
 			limit = {
@@ -207,7 +207,7 @@
 					is_otherworlder = yes
 				}
 			}
-			add = 4
+			add = 5
 		}
 
 

@@ -344,6 +344,7 @@ set_appropriate_elf_immortality_age = {
 				is_maiar = yes
 				is_valar = yes
 				is_aratar = yes
+				is_otherworlder = yes
 			}
 		}
 		set_adult_immortal_age = yes
