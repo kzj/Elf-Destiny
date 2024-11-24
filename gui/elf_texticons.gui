@@ -39,6 +39,16 @@ texticon = {
 }
 
 texticon = {
+	icon = empowered_icon
+	iconsize = {
+		texture = "gfx/interface/icons/traits/magi.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = spark_crystal_icon
 	iconsize = {
 		texture = "gfx/interface/icons/artifact/artifact_spark_crystal.dds"

@@ -29,6 +29,7 @@
 
   battle_of_wills_challenger_is_magi:0 "\n#P ++ You Are A [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
   battle_of_wills_defender_is_magi:0 "\n#N -- Your Target Is A [GetTrait('magi').GetName( GetNullCharacter )] @magi_icon!#!"
-
+  battle_of_wills_challenger_is_magi:0 "\n#P ++ You Are A [GetTrait('empowered').GetName( GetNullCharacter )] @empowered_icon!#!"
+  battle_of_wills_defender_is_magi:0 "\n#N -- Your Target Is A [GetTrait('empowered').GetName( GetNullCharacter )] @empowered_icon!#!"
 
   current_aeluran_control_level:0 "#high Your Current Aeluran Control Level:#! [SCOPE.Custom('AeluranMatchmakingDominationScore')]"

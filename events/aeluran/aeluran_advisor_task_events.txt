@@ -29,7 +29,7 @@ aeluran_advisor_task.0101 = { # New Magi is recruited
 				location = { save_scope_as = target_location }
 			}
 			random_list = {
-				90 = { # standard magi recruit
+				85 = { # standard magi recruit
 					if = { 
 						limit = {
 							# has enhanced magi recruitment perk
@@ -110,6 +110,72 @@ aeluran_advisor_task.0101 = { # New Magi is recruited
 							faith = scope:origin.faith
 							culture = scope:origin.culture
 							save_scope_as = new_magi_t2
+						}
+					}
+
+					scope:new_magi_t1 = {
+						set_father = scope:new_father
+						set_mother = scope:new_mother
+						set_house = scope:new_father.house
+					}
+
+					scope:new_magi_t2 = {
+						set_father = scope:new_father
+						set_mother = scope:new_mother
+						set_house = scope:new_father.house
+					}
+				}
+				5 = { # empowered recruit
+					trigger = {
+						# overflowing spark perk or empowered trait
+					}
+					create_character = {
+						gender_female_chance = 0
+						location = scope:target_location
+						template = new_male_magi_recruit_character
+						faith = scope:origin.faith
+						culture = scope:origin.culture
+						save_scope_as = new_male_magi
+					}
+
+
+					if = { 
+						limit = {
+							# has enhanced magi recruitment perk
+						}
+						create_character = {
+							gender_female_chance = 0
+							location = scope:target_location
+							template = new_male_twin_magi_recruit_character
+							faith = scope:origin.faith
+							culture = scope:origin.culture
+							save_scope_as = new_male_magi_t1
+						}
+						create_character = {
+							gender_female_chance = 0
+							location = scope:target_location
+							template = new_adv_male_twin_magi_recruit_character
+							faith = scope:origin.faith
+							culture = scope:origin.culture
+							save_scope_as = new_male_magi_t2
+						}
+					}
+					else = {
+						create_character = {
+							gender_female_chance = 0
+							location = scope:target_location
+							template = new_male_twin_magi_recruit_character
+							faith = scope:origin.faith
+							culture = scope:origin.culture
+							save_scope_as = new_male_magi_t1
+						}
+						create_character = {
+							gender_female_chance = 0
+							location = scope:target_location
+							template = new_male_twin_magi_recruit_character
+							faith = scope:origin.faith
+							culture = scope:origin.culture
+							save_scope_as = new_male_magi_t2
 						}
 					}
 
